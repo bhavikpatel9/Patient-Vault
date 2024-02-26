@@ -1,7 +1,7 @@
 import React from 'react'
 import './doctor.css'
 
-const doctor = () => {
+const Doctor = () => {
   return (
     <div>
       <p>login page for doctor</p>
@@ -9,4 +9,4 @@ const doctor = () => {
   )
 }
 
-export default doctor
+export default Doctor

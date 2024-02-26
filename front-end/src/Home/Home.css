@@ -55,7 +55,7 @@
     background-color: #e2e8f0;
   }
   
-  @media screen and (max-width: 796px) {
+  /* @media screen and (max-width: 796px) {
     .container {
       gap: 30px;
       width: 100VW;
@@ -73,21 +73,9 @@
     }
   
     /* Adjust button padding for larger screens */
-    .btn {
+   /* .btn {
       padding: 19px 100px;
     }
-  }
+  } */
   
   
-  /* .btn-1 { 
-    padding: 19px 135px 19px 135px;
-  }
-  .btn-2 {
-    padding: 19.09px 127px 19.09px 127px;
-  }
-  .btn-3 {
-    padding: 17px 130px 17px 130px;
-  }
-  .btn-4 {
-    padding: 17.59px 127px 17.59px 127px;
-  } */
