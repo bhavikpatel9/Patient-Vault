@@ -21,10 +21,10 @@ const DoctorDashboard = () => {
     <div className="doctor-dashboard grid-container">
 
         <section className='side-nav-bar box'>
-            <img src="./logo.jpeg" alt="error" />
+            <img className="logo" src="logo.png" alt="error"/>
             <ul>
-                <li>Home</li>
-                <li>Scheduled Visits</li>
+                <li><a className='nav-link active' aria-current="page" href="#">Home</a></li>
+                <li><a className='nav-link' href="#">Scheduled Visits</a></li>
             </ul>
         </section>
 

@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 28px;
+    left: 50px;
+  }
+  .wel-img {
+    width: 796px;
+    height: 336.12px;
+    /* margin: 0 auto; */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .login-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    /* list-style: none; */
+    /* margin:0 auto; */
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.9px solid #e2e8f0;
+    background-color: #ffffff;
+    border-radius: 27px;
+    padding: 19px 135px 19px 135px;
+  
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+  
+    line-height: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: #e2e8f0;
+  }
+  
+  @media screen and (max-width: 796px) {
+    .container {
+      gap: 30px;
+      width: 100VW;
+    }
+  
+    .login-items {
+     
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .wel-img {
+      margin: 0 auto;
+      Width: 563px;
+      height: 271.12px 
+    }
+  
+    /* Adjust button padding for larger screens */
+    .btn {
+      padding: 19px 100px;
+    }
+  }
+  
+  
+  /* .btn-1 { 
+    padding: 19px 135px 19px 135px;
+  }
+  .btn-2 {
+    padding: 19.09px 127px 19.09px 127px;
+  }
+  .btn-3 {
+    padding: 17px 130px 17px 130px;
+  }
+  .btn-4 {
+    padding: 17.59px 127px 17.59px 127px;
+  } */

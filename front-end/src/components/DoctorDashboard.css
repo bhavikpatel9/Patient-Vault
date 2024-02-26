@@ -30,7 +30,17 @@ img{
   .side-nav-bar {
     grid-column: 1 ;
     grid-row: 1 / 4;
+    box-shadow: 0px 0px 7px 0px #0000003B;
     /* height: 898px; */
+  }
+
+  .logo{
+    width: 235.88px;
+    height: 81px;
+    top: 28px;
+    left: 58px;
+    margin-left: 15px;
+    margin-top: 11px 
   }
   .greet {
     grid-column: 2 ;
@@ -40,6 +50,8 @@ img{
     font-size: 23px;
     display: grid;
     grid-template-rows: auto auto auto;
+    box-shadow: 0px 0px 7px 0px #0000003B;
+
 }
 .p-color{
     color: gray;
@@ -49,6 +61,8 @@ img{
     grid-row: 1/3 ;
     margin-right: 25px;
     margin-top: 30px;
+    box-shadow: 0px 0px 7px 0px #0000003B;
+
 }
 .today-session {
     grid-column: 2;
@@ -57,7 +71,10 @@ img{
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
-    background-image: linear-gradient(to right, #caf5ffe0 , white);
+    background: linear-gradient(270deg, #F7F7F7 0%, #FFFFFF 0.01%, #FFFFFF 0.02%, #EAFFFC 100%);
+    box-shadow: 0px 0px 7px 0px #0000003B;
+
+
 }
 .today-session-div{
     margin-left: 10px;
@@ -74,6 +91,7 @@ img{
     margin-left: 25px;
     margin-bottom: 35px;
     display: flex;
+    box-shadow: 0px 0px 7px 0px #0000003B;
   }
   .vl{
     height: 321px;
@@ -113,4 +131,6 @@ img{
     grid-row: 3;
     margin-right: 25px;
     margin-bottom: 35px;
+    box-shadow: 0px 0px 7px 0px #0000003B;
+
   }
