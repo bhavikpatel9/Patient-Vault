@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.logoImg{
+  height: 80px;
+  width: 245px;
+}
+.welImg {
+  width: 796px;
+  height: 336.12px;
+  /* margin: 0 auto; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding-top:35px ;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.loginItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px; 
+  /* margin:0 auto; */
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2.9px solid #e2e8f0;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  /* padding: 19px 135px 19px 135px; */
+  padding: 1.3rem 8rem 1.3rem 9rem;
+
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+   text-align: center;
+  /* line-height: 16px; */
+  cursor: pointer;
+  /* position: relative; */
+  /* position: sticky; */
+}
+
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: none;
+}
+
+/* .btn-3{
+  position: relative;
+  left: 2rem;
+  /* padding-left: 1rem; */
+/* .p-tag{
+  padding-left: 1rem;
+} */
+
+.btn:hover{
+  background-color: #e2e8f0;
+  color: black;
+
+}
+
+@media screen and (max-width: 796px) {
+  .container {
+    gap: 30px;
+    width: 100VW;
+  }
+
+  .login-items {
+   
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wel-img {
+    margin: 0 auto;
+    Width: 563px;
+    height: 271.12px 
+  }
+
+  /* Adjust button padding for larger screens */
+  .btn {
+    padding: 19px 100px;
+  }
+}
+
+
+/* .btn-1 { 
+  padding: 19px 135px 19px 135px;
+}
+.btn-2 {
+  padding: 19.09px 127px 19.09px 127px;
+}
+.btn-3 {
+  padding: 17px 130px 17px 130px;
+}
+.btn-4 {
+  padding: 17.59px 127px 17.59px 127px;
+} */
+
+  
+  /* @media screen and (max-width: 796px) {
+    .container {
+      gap: 30px;
+      width: 100VW;
+    }
+  
+    .login-items {
+     
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .wel-img {
+      margin: 0 auto;
+      Width: 563px;
+      height: 271.12px 
+    }
+  
+    /* Adjust button padding for larger screens */
+   /* .btn {
+      padding: 19px 100px;
+    }
+  } */
+  
+  

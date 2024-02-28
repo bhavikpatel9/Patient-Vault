@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .logoImg{
+    height: 80px;
+    width: 245px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hero {
+    margin: 0 auto;
+    /* width: 100vw; */
+  
+    /* width: 70%; */
+    display: flex;
+  
+    gap: 14px;
+    flex-direction: column;
+  }
+  .card{
+    border: none;
+  }
+  
+  .card img {
+    width: 391px;
+    height: 565px;
+    padding-top: 37px;
+    padding-right: 30px;
+    padding-bottom: 37px;
+    /* width: 450px;
+    height: 600px;
+    padding-top: 37px;
+    padding-right: 30px;
+    padding-bottom: 37px; */
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .doctText {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+  
+  .boxes {
+    display: flex;
+    gap: 13px;
+  }
+  .box {
+    width: 250px;
+    border: 2px solid black;
+    height: 1px;
+    border-radius: 2px;
+    background-color: black;
+  }
+  .box2 {
+    border-color: gray;
+    background-color: gray;
+  }
+  .box3 {
+    border-color: gray;
+    background-color: gray;
+  }
+  
+  form div label {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .firstName {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    /* border-color:#94A3B8 ; */
+    padding: 15px 192px 15px 10px;
+  }
+  .lastName {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    /* border-color:#94A3B8 ; */
+    padding: 15px 192px 15px 10px;
+    /* text-align: center; */
+  }
+  
+  .fisrtLastName {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .email {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 15px 192px 15px 10px;
+  }
+  .psw {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 15px 192px 15px 10px;
+  }
+  
+  .pswPara{
+      color:#94A3B8;
+      font-size: 14px;
+  }
+  .confoPsw {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 15px 192px 15px 10px;
+  }
+  
+  .button {
+    display: flex;
+    /* margin: 0 auto; */
+    gap: 16px;
+    justify-content: space-between;
+    /* border: 2px solid #94A3B8 ; */
+  }
+  .btn {
+    border-radius: 22px;
+    padding: 9px 51px 9px 50px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .btn3 {
+    background-color: #2b8761;
+    color: white;
+    border: 2px solid #2b8761;
+  }
+  
+  .btn2 {
+    margin-right: 40px;
+    border: none;
+    background-color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

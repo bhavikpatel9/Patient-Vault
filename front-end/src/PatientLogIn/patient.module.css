@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .logoImg{
+    height: 80px;
+    width: 245px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hero {
+    margin: 0 auto;
+    width: 406px;
+    /* width: 70%; */
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 391px;
+    height: 565px;
+    padding-top: 37px;
+    padding-right: 30px;
+    padding-bottom: 37px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .doctText {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+  
+  /* .doct-id{
+      font-size: 20px;
+     ;
+    } */
+  
+  form div label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .doctIdClass {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    /* border-color:#94A3B8 ; */
+    padding: 15px 230px 15px 10px;
+  }
+  .doctPswClass {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    /* border-color:#94A3B8 ; */
+    padding: 15px 230px 15px 10px;
+  }
+  .forgotPsw {
+    text-align: end;
+    color: #3c9afb;
+    /* text-decoration: none; */
+  }
+  
+  .button {
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+    /* border: 2px solid #94A3B8 ; */
+  }
+  .btn {
+    border-radius: 22px;
+    padding: 9px 51px 9px 50px;
+    border: 2px solid black;
+    font-weight: 600;
+  }
+  .btn2 {
+    background-color: #2b8761;
+    color: white;
+    border: 2px solid #2b8761;
+  }
+  
+  .gLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:325px;
+    margin: 0 auto;
+    gap: 10px;
+    border: 2.9px solid #e2e8f0;
+    background-color: #ffffff;
+    border-radius: 3rem;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+     text-align: center;
+    cursor: pointer;
+  }
+  .gLogin img{
+    width: 26px;
+    height: 26px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
