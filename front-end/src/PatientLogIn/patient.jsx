@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Patient = () => {
   const navigate = useNavigate();
   function ToRegisterPage(){
-    navigate('./PatientRegister/patientReg0')
+    navigate('/PatientLogIn/PatientRegister/patientReg0')
   }
   return (
     <>

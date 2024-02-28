@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 28px;
+    left: 50px;
+    
+  }
+  
+  .containers {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hero {
+    margin: 0 auto;
+    /* width: 100vw; */
+  margin-top: -10px;
+    /* width: 70%; */
+    display: flex;
+  
+    gap: 10px;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 450px;
+    height: 600px;
+    padding-top: 37px;
+    padding-right: 30px;
+    padding-bottom: 37px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 40px;
+    /* margin-bottom: 15px; */
+  }
+  
+  .doctText {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+  
+  .boxes {
+    display: flex;
+    gap: 13px;
+  }
+  .box {
+    width: 250px;
+    border: 2px solid black;
+    height: 1px;
+    border-radius: 2px;
+    background-color: black;
+  }
+  .box2{
+    border-color: black;
+    background-color: black;
+  }
+  .box3 {
+    border-color: gray;
+    background-color: gray;
+  }
+  
+  .hospiName {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 10px 192px 10px 10px;
+    color: #94a3b8;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Gelion;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.14px;
+  }
+  .hospiLoca {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 10px 192px 10px 10px;
+    color: #94a3b8;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Gelion;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.14px;
+  }
+  
+  .fieldPractice {
+    border: 2px solid #94a3b8;
+    border-radius: 10px;
+    padding: 10px 192px 10px 10px;
+    color: #94a3b8;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Gelion;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.14px;
+  }
+  
+  .lableText {
+    color: #1e293b;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 14px;
+    font-family: Gelion;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.14px;
+  }
+  
+  .uploadText{
+      text-align: center;
+  }
+  
+  .uploadText>.para1{
+      color:  #64748B;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gelion;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.14px;
+  }
+  .uploadText>.para2{
+      color:  #64748B;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gelion;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.14px;
+  }
+  .button {
+    display: flex;
+    /* margin: 0 auto; */
+    gap: 16px;
+    justify-content: space-between;
+    /* border: 2px solid #94A3B8 ; */
+  }
+  .btn {
+    border-radius: 22px;
+    padding: 9px 51px 9px 50px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .btn3 {
+    background-color: #2b8761;
+    color: white;
+    border: 2px solid #2b8761;
+  }
+  
+  .btn2{
+    margin-right: 40px;
+    border: none;
+    background-color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

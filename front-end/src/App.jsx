@@ -9,6 +9,9 @@ import DoctorReg0 from './DoctorLogIn/DoctorRegister/doctorReg0'
 import DoctorReg1 from './DoctorLogIn/DoctorRegister/doctorReg1'
 import DoctorReg2 from './DoctorLogIn/DoctorRegister/doctorReg2'
 import DoctorDashboard from './DoctorDashboard/DoctorDashboard'
+import PatientReg0 from './PatientLogIn/PatientRegister/patientReg0'
+import PatientReg1 from './PatientLogIn/PatientRegister/patientReg1'
+import PatientReg2 from './PatientLogIn/PatientRegister/patientReg2'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -29,7 +32,6 @@ function App() {
               </Routes>
               <Routes>
                     <Route exact path="/DoctorLogIn/doctor/DoctorRegister/doctorReg0"  element={<DoctorReg0/>} />
-                    {/* <Route exact path="/DoctorLogIn/doctor/DoctorRegister/doctorReg0/DoctorRegister1/doctorReg1"  element={<DoctorReg1/>} /> */}
               </Routes>
               <Routes>
                     <Route exact path="/DoctorLogIn/doctor/DoctorRegister/doctorReg1"  element={<DoctorReg1/>} />
@@ -40,6 +42,16 @@ function App() {
               <Routes>
                     <Route exact path="/DoctorDashboard"  element={<DoctorDashboard/>} />
               </Routes>
+              <Routes>
+                    <Route exact path="/PatientLogIn/PatientRegister/patientReg0"  element={<PatientReg0/>} />
+              </Routes>
+              <Routes>
+                    <Route exact path="/PatientLogIn/PatientRegister/patientReg1"  element={<PatientReg1/>} />
+              </Routes>
+              <Routes>
+                    <Route exact path="/PatientLogIn/PatientRegister/patientReg2"  element={<PatientReg2/>} />
+              </Routes>
+
               
          </BrowserRouter>
     </>
