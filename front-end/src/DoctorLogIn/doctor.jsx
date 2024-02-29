@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from './doctor.module.css'; // import CSS module
-import { Outlet, Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
 const Doctor = () => {
+  const navigate = useNavigate();
+  function ToRegisterPage(){
+    navigate('/DoctorLogIn/doctor/DoctorRegister/doctorReg0')
+  }
   return (
     <>
     <div>
@@ -36,7 +40,7 @@ const Doctor = () => {
         </div>
         <a href="" className={styles.forgotPsw}>Forgot Password?</a>
         <div className={styles.button}>
-          <Link to="./DoctorRegister/doctorReg0"><button className={`${styles.btn} ${styles.btn-1}`}>Register</button></Link>
+          <button onClick={ToRegisterPage} className={`${styles.btn} ${styles.btn-1}`}>Register</button>
           <button className={`${styles.btn} ${styles.btn2}`}>Login</button>
         </div>
         <button className={styles.gLogin}>
@@ -49,7 +53,6 @@ const Doctor = () => {
       <img src="/Antoni Shkraba.png" alt="" />
     </div>
   </div>
-  <Outlet />
 </div>
 </>
 

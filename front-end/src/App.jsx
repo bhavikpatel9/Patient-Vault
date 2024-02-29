@@ -12,6 +12,7 @@ import DoctorDashboard from './DoctorDashboard/DoctorDashboard'
 import PatientReg0 from './PatientLogIn/PatientRegister/patientReg0'
 import PatientReg1 from './PatientLogIn/PatientRegister/patientReg1'
 import PatientReg2 from './PatientLogIn/PatientRegister/patientReg2'
+import PatientDashboard from './PatientDashboard/PatientDashboard'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -50,6 +51,9 @@ function App() {
               </Routes>
               <Routes>
                     <Route exact path="/PatientLogIn/PatientRegister/patientReg2"  element={<PatientReg2/>} />
+              </Routes>
+              <Routes>
+                    <Route exact path="/PatientDashboard"  element={<PatientDashboard/>} />
               </Routes>
 
               

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./doctorReg2.css"
+import styles from './doctorReg2.module.css'
 import { useNavigate } from 'react-router-dom'
 
 const doctorReg2 = () => {
@@ -10,12 +10,12 @@ const doctorReg2 = () => {
   }
   return (
     <>
-  <div className="logo">
+  <div className={styles.logo}>
     <img src="/logo.png" alt="" />
   </div>
-  <div className="container">
-    <div className="hero">
-      <div className="heading">
+  <div className={styles.container}>
+    <div className={styles.hero}>
+      <div className={styles.heading}>
         <h2>Thank you for Registering</h2>
         <p>
           We will send you a login link in the mail along with your Doctor ID
@@ -23,14 +23,14 @@ const doctorReg2 = () => {
         </p>
       </div>
       <a href="">
-        <button className="gLogin">
-          <img src="/SSO Icon.png" className="gicon" alt="" />
+        <button className={styles.gLogin}>
+          <img src="/SSO Icon.png" className={styles.gicon} alt="" />
           Login with Google
         </button>
       </a>
-        <button onClick={goToNextPage}  className="btn btn-1">Back</button>
+        <span><button onClick={goToNextPage}  className={`${styles.btn}`}>Back</button></span>
     </div>
-    <div className="card">
+    <div className={styles.card}>
       <img src="/thankyou-img.png " alt="" />
     </div>
   </div>

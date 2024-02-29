@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const PatientReg2 = () => {
   const navigate = useNavigate()
   function goToNextPage (){
-      navigate('/')
+      navigate('/PatientDashboard')
       console.log("clicked")
   }
   return (
