@@ -28,11 +28,11 @@ const DoctorDashboard = () => {
             </ul>
         </section>
 
-        <section className='greet box right'>
+        {/* <section className='greet box right'>
              <p>Good Morning,</p>
              <h1>Dr. Zeus Walter</h1>
              <p className='p-color'>You are having a busy day today, have a good day today!</p>
-        </section>
+        </section> */}
 
         <section className='History box right'>
         <h2>Patient List</h2>
