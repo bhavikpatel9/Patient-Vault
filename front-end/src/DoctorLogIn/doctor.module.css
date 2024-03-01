@@ -81,6 +81,9 @@
     gap: 16px;
     /* border: 2px solid #94A3B8 ; */
   }
+  .button>button{
+    cursor: pointer;
+  }
   .btn {
     border-radius: 22px;
     padding: 9px 51px 9px 50px;

@@ -137,6 +137,7 @@
     border: 2px solid black;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
   }
   .btn3 {
     background-color: #2b8761;
@@ -148,6 +149,7 @@
     margin-right: 40px;
     border: none;
     background-color: white;
+    cursor: pointer;
   }
   
   form {

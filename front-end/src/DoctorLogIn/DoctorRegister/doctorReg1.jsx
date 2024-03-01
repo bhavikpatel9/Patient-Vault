@@ -11,7 +11,7 @@ const DoctorReg1 = () => {
   return (
     <>
   <div className={styles.logo}>
-    <img src="/Frame 1000002286.png" alt="" />
+    <img className={styles.logoImg} src="/Frame 1000002286.png" alt="" />
   </div>
   <div className={styles.containers}>
     <div className={styles.hero}>
@@ -45,7 +45,7 @@ const DoctorReg1 = () => {
         Enter your field of Practice
       </label>
       <input
-        type="password"
+        type="text"
         className={styles.fieldPractice }
         placeholder="Gynecologist"
       />
