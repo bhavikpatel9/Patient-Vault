@@ -11,7 +11,7 @@ const DoctorReg1 = () => {
   return (
     <>
   <div className={styles.logo}>
-    <img src="/logo.png" alt="" />
+    <img src="/Frame 1000002286.png" alt="" />
   </div>
   <div className={styles.containers}>
     <div className={styles.hero}>

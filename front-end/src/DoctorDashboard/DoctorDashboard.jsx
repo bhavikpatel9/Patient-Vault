@@ -1,7 +1,7 @@
 // DoctorDashboard.js
 
 import React, { useState } from 'react';
-import './DoctorDashboard.css'; // Import your CSS file for styling
+import styles from './DoctorDashboard.module.css'; // Import your CSS file for styling
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
@@ -18,43 +18,90 @@ const DoctorDashboard = () => {
   };
 
   return (
-    <div className="doctor-dashboard grid-container">
+    <>
+    <div className={`${styles.doctorDashboard} ${styles.gridContainer}`}>
 
-        <section className='side-nav-bar box'>
-            <img className="logo" src="logo.png" alt="error"/>
+        <section className={`${styles.sideNavBar} ${styles.box}`}>
+            <img className={styles.logo} src="/Frame 1000002286.png" alt="error"/>
             <ul>
-                <li><a className='nav-link active' aria-current="page" href="#">Home</a></li>
-                <li><a className='nav-link' href="#">Scheduled Visits</a></li>
+                <li><a className={`${styles.navLink} ${styles.active}`} aria-current="page" href="#">Home</a></li>
+                <li><a className={styles.navLink} href="#">Scheduled Visits</a></li>
             </ul>
         </section>
 
-        {/* <section className='greet box right'>
+        <section className={`${styles.greet} ${styles.box} ${styles.right}`}>
              <p>Good Morning,</p>
              <h1>Dr. Zeus Walter</h1>
-             <p className='p-color'>You are having a busy day today, have a good day today!</p>
-        </section> */}
+             <p className={styles.pColor}>You are having a busy day today, have a good day today!</p>
+        </section>
 
-        <section className='History box right'>
-        <h2>Patient List</h2>
+        <section className={`${styles.History} ${styles.box} ${styles.right}`}>
+        {/* <h2>Patient List</h2> */}
         {/* Render patient list */}
-        <ul>
+        {/* <ul>
           {patients.map(patient => (
             <li key={patient.id}>{patient.name}</li>
           ))}
-        </ul>
+        </ul> */}
+        <div className={styles.historyIconAndHeading}>
+        <img src="/history.png" alt="" />
+        <h4>History</h4>
+        </div>
+        <p>
+              - - - - - - - - - - - - - - - - - - - -  Yesterday, 15th January 2024 - - - - - - - - - - - - - - - - - -
+            </p>
+            <div className={styles.historyMsg}>
+              <img src="/Rectangle 10.png" alt="" />
+              <div className={styles.Ethan}>
+                <h4>Ethan</h4>
+                <p>Hypertension, Type 2 Diabetes</p>
+              </div>
+              <div className={styles.time}>
+                <p className={styles.timeP}>19:36</p>
+                <p>Prescribed blood pressure monitoring and HbA1c test.</p>
+                <p className={styles.timeN}>Next visit on 24th Feb 2024</p>
+              </div>
+            </div>
+        <hr />
+            <div className={styles.historyMsg}>
+              <img src="/Rectangle 10 (1).png" alt="" />
+              <div className={styles.Ethan}>
+                <h4>Michael</h4>
+                <p>Hypertension, Type 2 Diabetes</p>
+              </div>
+              <div className={styles.time}>
+                <p className={styles.timeP}>19:36</p>
+                <p>Prescribed blood pressure monitoring and HbA1c test.</p>
+                <p className={styles.timeN}>Next visit on 24th Feb 2024</p>
+              </div>
+            </div>
+        <hr />
+            <div className={styles.historyMsg}>
+              <img src="/Rectangle 10 (2).png" alt="" />
+              <div className={styles.Ethan}>
+                <h4>Emily</h4>
+                <p>Hypertension, Type 2 Diabetes</p>
+              </div>
+              <div className={styles.time}>
+                <p className={styles.timeP}>19:36</p>
+                <p>Prescribed blood pressure monitoring and HbA1c test.</p>
+                <p className={styles.timeN}>Next visit on 24th Feb 2024</p>
+              </div>
+            </div>
+        <hr />
         </section>
 
 
-      <section className="today-session box right">
-      <div className='today-session-div'>
+      <section className={`${styles.todaySession} ${styles.box} ${styles.right}`}>
+      <div className={styles.todaySessionDiv}>
         <p>Today's</p>
         <p>Sessions</p>
       </div>
-      <div className='today-session-counter-online'>
+      <div className={styles.todaySessionCounterOnline}>
         <p>12</p>
         <p>Online Session</p>
       </div>
-      <div className='today-session-counter-offline'>
+      <div className={styles.todaySessionCounterOffline}>
         <p>8</p>
         <p>Advanced Office</p>
         <p>Appointments</p>
@@ -62,28 +109,114 @@ const DoctorDashboard = () => {
         
       </section>
 
-      <section className="appointment-schedule box right">
-        <div className="calendar-container">
+      <section className={`${styles.appointmentSchedule} ${styles.box} ${styles.right}`}>
+        <div className={styles.calendarContainer}>
           <Calendar
             onChange={handleDateChange}
             value={date}
           />
         </div>
-        <div className="vl"></div>
+        <div className={styles.vl}></div>
+        <div id='msg'>
+          <div>
+            <pre>  ------------ Morning ------------</pre>
+            <div className={styles.appo}>
+              <pre>  Clinic Patient</pre>
+              <p>9:00 - 11:00</p>
+            </div>
+          </div>
+          <div>
+            <pre>  ------------ Afternoon ----------</pre>
+            <div className={styles.appo}>
+              <pre>  Online Session</pre>
+              <p>9:00 - 11:00</p>
+            </div>
+          </div>
+          <div>
+            <pre>  ------------ Evening ------------</pre>
+            <div className={styles.appo}>
+              <pre>  Clinic Patient</pre>
+              <p>9:00 - 11:00</p>
+            </div>
+          </div>
+        </div>
         {/* Render appointment schedule */}
-        <ul>
+        {/* <ul>
           {appointments.map(appointment => (
             <li key={appointment.id}>{appointment.date}</li>
           ))}
-        </ul>
+        </ul> */}
       </section>
 
-      <section className='messages box right'>
+      <section className={`${styles.messages} ${styles.box} ${styles.right}`}>
+      <div className={styles.pateintMessage}>
+            <p>Messages from Patients</p>
+            <p>
+              - - - - - - - - - - - - - Yesterday, 15th January 2024 - - - - - -
+              - - - - - -
+            </p>
 
+            <div className={styles.msg}>
+
+              <div className={styles.MsgLeft}>
+                <img src="/patient-msg-img.png" alt="" />
+              </div>
+
+              <div className={styles.NameAndMsg}>
+                <p>Jyoti Despandey - Heart Patient</p>
+                <p>I am feeling good, today</p>
+              </div>
+
+              <div className={styles.msgRight}>
+                <p>17:36</p>
+                <p className={styles.one}>1</p>
+              </div>
+            </div>
+
+            <div className={styles.msg}>
+
+              <div className={styles.MsgLeft}>
+                <img src="/patient-msg-img.png" alt="" />
+              </div>
+
+              <div className={styles.NameAndMsg}>
+                <p>Jyoti Despandey</p>
+                <p>I am feeling good, today</p>
+              </div>
+
+              <div className={styles.msgRight2}>
+                <p>17:36</p>
+                <p className={styles.one}>1</p>
+              </div>
+            </div>
+            <p>
+              - - - - - - - - - - - - - - - 14th January 2024 - - - - - -
+              - - - - - - - - - -
+            </p>
+
+
+            <div className={styles.msg}>
+
+              <div className={styles.MsgLeft}>
+                <img src="/patient-msg-img.png" alt="" />
+              </div>
+
+              <div className={styles.NameAndMsg}>
+                <p>Jyoti Despandey - Heart Patient</p>
+                <p>I am feeling good, today</p>
+              </div>
+
+              <div className={styles.msgRight}>
+                <p>17:36</p>
+                <p className={styles.one}>1</p>
+              </div>
+            </div>
+            </div>
       </section>
 
       {/* Add more sections/components as needed */}
     </div>
+    </>
   );
 };
 

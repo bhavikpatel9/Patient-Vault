@@ -25,7 +25,7 @@ const doctorReg2 = () => {
       <a href="">
         <button className={styles.gLogin}>
           <img src="/SSO Icon.png" className={styles.gicon} alt="" />
-          Login with Google
+          Check Gmail Box
         </button>
       </a>
         <span><button onClick={goToNextPage}  className={`${styles.btn}`}>Back</button></span>

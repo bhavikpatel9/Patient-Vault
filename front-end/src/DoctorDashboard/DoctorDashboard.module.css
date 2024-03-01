@@ -5,9 +5,10 @@ img{
 *{
     margin: 0;
     padding: 0;
+      font-family: Gelion Regular;
 }
 
-.grid-container {
+.gridContainer {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 310px 579px 54px 563px;
@@ -27,7 +28,7 @@ img{
  .right{
     padding: 10px;
  }
-  .side-nav-bar {
+  .sideNavBar {
     grid-column: 1 ;
     grid-row: 1 / 4;
     box-shadow: 0px 0px 7px 0px #0000003B;
@@ -53,7 +54,7 @@ img{
     box-shadow: 0px 0px 7px 0px #0000003B;
 
 }
-.p-color{
+.pColor{
     color: gray;
 }
 .History {
@@ -62,9 +63,52 @@ img{
     margin-right: 25px;
     margin-top: 30px;
     box-shadow: 0px 0px 7px 0px #0000003B;
-
+    overflow: hidden;
 }
-.today-session {
+.historyIconAndHeading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.historyIconAndHeading img{
+  width: 20px;
+  height: 20px;
+}
+.historyIconAndHeading h4{
+  margin-top: 3px;
+}
+.historyMsg{
+  display: flex;
+}
+.historyMsg img{
+  align-self: flex-end;
+  width: 50px;
+  height: 50px;
+}
+.Ethan{
+  align-self: flex-end;
+  font-size: 12px;
+}
+.Ethan p,h4{
+  margin-bottom: 0px;
+}
+
+.time{
+  font-size: 12px;
+  margin-left: 83px ;
+}
+.time p{
+  margin-bottom: 0px;
+}
+.timeP{
+  margin-left: 256px;
+}
+.timeN{
+  margin-left: 141px;
+  border-radius: 11.953px;
+background: rgba(61, 191, 0, 0.28);
+}
+.todaySession {
     grid-column: 2;
     grid-row: 2;
     margin-left: 25px;
@@ -76,16 +120,16 @@ img{
 
 
 }
-.today-session-div{
+.todaySessionDiv{
     margin-left: 10px;
 }
-.today-session-counter-online{
+.todaySessionCounterOnline{
     text-align: center;
 }
-.today-session-counter-offline{
+.todaySessionCounterOffline{
     text-align: center;
 }
-.appointment-schedule {
+.appointmentSchedule {
     grid-column: 2/4;
     grid-row: 3;
     margin-left: 25px;
@@ -98,16 +142,24 @@ img{
     width: 2.5px;
     background-color: #80808038;
   }
+  #msg{
+    margin: auto 0px;
+  }
+  .appo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .appo p{
+    margin-right: 10px;
+  }
   /* .custom-calendar {
     width: 300px; 
     height: 300px; 
   } */
-  .calendar-container{
+  .calendarContainer{
     margin: 10px;
     margin-top: 27px;
-  }
-  .react-calendar {
-    width: 300px !important; 
+    width: 300px;
   }
   .react-calendar__month-view__weekdays {
     font-size: 0.60em  !important;
@@ -117,7 +169,7 @@ img{
     font-weight: lighter !important;
   }
   .react-calendar__tile--active {
-    background-color:  #0080ff !important; /* Change background color of active dates */
+    background-color:  #0e0f10 !important; /* Change background color of active dates */
     border-radius: 50%;
   }
   .react-calendar__tile--now {
@@ -132,5 +184,39 @@ img{
     margin-right: 25px;
     margin-bottom: 35px;
     box-shadow: 0px 0px 7px 0px #0000003B;
+    overflow: scroll;
+  }
+  .messages::-webkit-scrollbar {
+    width: 7px; /* width of the scrollbar */
+  }
+  .messages::-webkit-scrollbar-thumb {
+    background: #dcdada; /* color of the scrollbar handle */
+    border-radius: 5px; /* rounded corners */
+  }
 
+  .pateintMessage{
+    display: flex;
+    flex-direction: column;
+    /* padding: 11px; */
+  }
+  .msg{
+    display: flex;
+    gap: 10px;
+  }
+  .NameAndMsg{
+    margin-top: 10px;
+  }
+  .msgRight{
+    margin-left: 185px;
+  }
+  .msgRight2{
+    margin-left: 237px;
+  }
+  
+  .one{
+    color: white;
+    background-color: #F40000;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
   }

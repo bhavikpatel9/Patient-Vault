@@ -9,7 +9,7 @@ const Home = () => {
     <>
     <div>
         <div className={styles.logo}>
-          <img src="/logo.png" className={styles.logoImg} alt="" />
+          <img src="/Frame 1000002286.png" className={styles.logoImg} alt="" />
         </div>
         <div className={styles.container}>
           <div>

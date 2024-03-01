@@ -1,5 +1,5 @@
 import React from 'react'
-// import './doctorReg1.css'
+import './patientReg1.css'
 import { useNavigate } from 'react-router-dom'
 
 const PatientReg1 = () => {
@@ -28,29 +28,13 @@ const PatientReg1 = () => {
         <div className="box box3" />
       </div>
       <label htmlFor="hospitalname" className="lableText">
-        Enter your Hospital Name{" "}
+        Enter your Aadhar Card{" "}
       </label>
-      <input type="text" className="hospiName" placeholder="Zydus Hospital " />
+      <input type="text" className="hospiName" placeholder="1234 1234 1234" />
       {/* <br> */}
-      <label htmlFor="hospitallocation" className="lableText ">
-        Enter Location of your Hospital
-      </label>
-      <input
-        type="email"
-        id="Email"
-        className="hospiLoca "
-        placeholder="1244, Sector 23, Ghaziabad, Delhi"
-      />
-      <label htmlFor="feildpractice" className="lableText ">
-        Enter your field of Practice
-      </label>
-      <input
-        type="password"
-        className="fieldPractice "
-        placeholder="Gynecologist"
-      />
+      
       <label htmlFor="graduationcertificate" className="lableText ">
-        Upload your Graduation Certificate
+        Upload your Aadhar Card
       </label>
       <input type="file" defaultValue="" />
       <div className="uploadText">
