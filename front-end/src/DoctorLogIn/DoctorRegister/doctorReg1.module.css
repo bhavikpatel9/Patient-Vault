@@ -23,7 +23,7 @@
   }
   
   .hero {
-    margin: 0 auto;
+    margin: 113px auto;
     /* width: 100vw; */
   margin-top: -10px;
     /* width: 70%; */
@@ -34,8 +34,8 @@
   }
   
   .card img {
-    width: 450px;
-    height: 600px;
+    width: 391px;
+    height: 565px;
     padding-top: 37px;
     padding-right: 30px;
     padding-bottom: 37px;

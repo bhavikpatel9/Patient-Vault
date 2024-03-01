@@ -22,7 +22,7 @@ const DoctorDashboard = () => {
     <div className={`${styles.doctorDashboard} ${styles.gridContainer}`}>
 
         <section className={`${styles.sideNavBar} ${styles.box}`}>
-            <img className={styles.logo} src="/Frame 1000002286.png" alt="error"/>
+            <img className={styles.logo} src="/logo.png" alt="error"/>
             <ul>
                 <li><a className={`${styles.navLink} ${styles.active}`} aria-current="page" href="#">Home</a></li>
                 <li><a className={styles.navLink} href="#">Scheduled Visits</a></li>
@@ -46,9 +46,10 @@ const DoctorDashboard = () => {
         <div className={styles.historyIconAndHeading}>
         <img src="/history.png" alt="" />
         <h4>History</h4>
+        
         </div>
         <p>
-              - - - - - - - - - - - - - - - - - - - -  Yesterday, 15th January 2024 - - - - - - - - - - - - - - - - - -
+              - - - - - - - - - - - - - - - - - - - -  Yesterday, 15th January 2024 - - - - - - - - - - - - - - - -
             </p>
             <div className={styles.historyMsg}>
               <img src="/Rectangle 10.png" alt="" />
@@ -117,23 +118,23 @@ const DoctorDashboard = () => {
           />
         </div>
         <div className={styles.vl}></div>
-        <div id='msg'>
+        <div id='msg' className={styles.cmsg}>
           <div>
-            <pre>  ------------ Morning ------------</pre>
+            <pre>  - - - - - - - - - - Morning - - - - - - - - - - </pre>
             <div className={styles.appo}>
               <pre>  Clinic Patient</pre>
               <p>9:00 - 11:00</p>
             </div>
           </div>
           <div>
-            <pre>  ------------ Afternoon ----------</pre>
+            <pre>  - - - - - - - - - - Afternoon - - - - - - - - - - </pre>
             <div className={styles.appo}>
               <pre>  Online Session</pre>
               <p>9:00 - 11:00</p>
             </div>
           </div>
           <div>
-            <pre>  ------------ Evening ------------</pre>
+            <pre>  - - - - - - - - - - Evening - - - - - - - - - - </pre>
             <div className={styles.appo}>
               <pre>  Clinic Patient</pre>
               <p>9:00 - 11:00</p>
@@ -150,10 +151,10 @@ const DoctorDashboard = () => {
 
       <section className={`${styles.messages} ${styles.box} ${styles.right}`}>
       <div className={styles.pateintMessage}>
-            <p>Messages from Patients</p>
+            <h3>Messages from Patients</h3>
             <p>
-              - - - - - - - - - - - - - Yesterday, 15th January 2024 - - - - - -
-              - - - - - -
+              - - - - - - - - - - - - - -Yesterday, 15th January 2024 - - - - - -
+              - - - - - - - - - -
             </p>
 
             <div className={styles.msg}>

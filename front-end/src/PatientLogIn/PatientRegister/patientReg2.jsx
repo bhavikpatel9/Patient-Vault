@@ -11,7 +11,7 @@ const patientReg2 = () => {
   return (
     <>
   <div className={styles.logo}>
-    <img src="/logo.png" alt="" />
+    <img className={styles.logoImg} src="/logo.png" alt="" />
   </div>
   <div className={styles.container}>
     <div className={styles.hero}>

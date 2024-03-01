@@ -6,7 +6,7 @@ const PatientDashboard = () => {
     <>
       <section className="fullPage">
         <nav>
-          <img src="/Frame 1000002286.png" alt="" />
+          <img src="/logo.png" alt="" />
         </nav>
 
         <section className="main">
@@ -17,8 +17,8 @@ const PatientDashboard = () => {
 
           <div className="doctorWelcome">
             <p>Good Morning,</p>
-            <h3 className="DoctorName">Dr. Zeus Walter</h3>
-            <p>You are having a busy day today, have a good day today!</p>
+            <h3 className="DoctorName">Mr. Sam Prasad</h3>
+            <p>Keep Smiling you will have a great day today!</p>
           </div>
           <div className="bottomSection">
             <div className="gridContainer">

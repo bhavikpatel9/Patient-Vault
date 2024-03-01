@@ -5,8 +5,12 @@
 
 .logo {
   position: absolute;
-  top: 28px;
-  left: 50px;
+  top: 10px;
+  left: 10px;
+}
+.logoImg{
+  height: 80px;
+  width: 245px;
 }
 
 .container {
@@ -49,6 +53,7 @@
   border: 2px solid black;
   font-weight: 600;
   background-color: white;
+  cursor: pointer;
 }
 .gLogin {
   display: flex;

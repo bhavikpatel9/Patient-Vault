@@ -11,7 +11,7 @@ const PatientReg1 = () => {
   return (
     <>
   <div className={styles.logo}>
-    <img src="/Frame 1000002286.png" alt="" />
+    <img className={styles.logoImg} src="/logo.png" alt="" />
   </div>
   <div className={styles.containers}>
     <div className={styles.hero}>
@@ -27,30 +27,20 @@ const PatientReg1 = () => {
         <div className={`${styles.box} ${styles.box2}`} />
         <div className={`${styles.box} ${styles.box3}`} />
       </div>
-      <label htmlFor="hospitalname" className={styles.lableText}>
-        Enter your Hospital Name{" "}
-      </label>
-      <input type="text" className={styles.hospiName} placeholder="Zydus Hospital " />
+      
       {/* <br> */}
       <label htmlFor="hospitallocation" className={styles.lableText }>
-        Enter Location of your Hospital
+        Enter your Aadhar Card
       </label>
       <input
-        type="email"
-        id="Email"
+        type="number"
+        id="num"
         className={styles.hospiLoca }
-        placeholder="1244, Sector 23, Ghaziabad, Delhi"
+        placeholder="1234 1234 1234"
       />
-      <label htmlFor="feildpractice" className={styles.lableText }>
-        Enter your field of Practice
-      </label>
-      <input
-        type="password"
-        className={styles.fieldPractice }
-        placeholder="Gynecologist"
-      />
+      
       <label htmlFor="graduationcertificate" className={styles.lableText }>
-        Upload your Graduation Certificate
+        Upload your Aadhar Card
       </label>
       <input type="file" defaultValue="" />
       <div className={styles.uploadText}>
